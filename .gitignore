@@ -1,0 +1,42 @@
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos y directorios de configuración de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Configuración específica del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos y directorios de herramientas de desarrollo
+.idea/
+.vscode/
+*.log
+*.swp
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configuración y salidas de Jupyter Notebook
+*.nbconvert.ipynb
+*.out
+*.html
+
+# Archivos de dependencias no bloqueadas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Datos sensibles
+*.env
+secrets.json
+config.json
+
+# Archivos temporales o de caché
+*.bak
+*.tmp
+*.~*

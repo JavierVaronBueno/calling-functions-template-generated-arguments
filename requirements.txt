@@ -1,0 +1,4 @@
+termcolor
+openai==0.28
+pandas
+notebook
